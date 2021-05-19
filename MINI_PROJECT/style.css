@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #b14633;
+    height: 80px;
+    position: relative;
+    
+}
+#img{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+#covid{
+    position: absolute;
+    text-align: center;
+    left: 42%;
+    font-weight:1000;
+    font-size: 200%;
+
+}
+#COV{
+    position: absolute;
+    text-align: left;
+    left: 89%;
+    font-weight:100;
+    font-size: 150%;
+    color: black;
+
+}
+#container{
+    height: 515px;
+    width: 100%;
+    position: relative;
+    
+}
+#side{
+    height: 90%;
+    width: 16%;
+    position: absolute;
+    overflow: auto;
+    left: 40px;
+    bottom: 6%;
+    border: 0.1px solid rgb(180, 167, 167);
+    cursor: pointer;
+}
+#content{
+    height: 90%;
+    width: 74%;
+    position: absolute;
+    right: 16px;
+    bottom: 8%;
+}
+#foter{
+    text-align: center;
+    height: 30px;
+    background-color: #b14633;
+    font-size: 150%;
+    top: 100%;
+    margin-top: 4%;
+}
+
+#contries{
+    font-family: sans-serif;
+
+    background-color: rgb(141, 34, 34);
+    position: relative;
+    border-radius: 3px;
+    display: flex;
+    border-bottom: 2px solid rgb(5, 2, 8);
+    font-size: large;
+    justify-content: space-around;
+    width: 90%;
+    left: 4%;
+    color: cornsilk;
+    
+}
+#contries:hover{
+    background-color: rgb(10, 10, 9);
+    
+}
